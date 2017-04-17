@@ -21,7 +21,11 @@
 		</tr>
 	</table>
 
-	<button class="add">Add New</button>
+	<button class="add">Add New</button><img src="assets/loader.gif" class="loader">
+
+	<div class="form">
+		
+	</div>
 </div>
 </body>
 </html>

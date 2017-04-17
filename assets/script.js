@@ -7,6 +7,9 @@ $(document).ready(function(){
 			type: 'POST',
 			data: {"getData" : "1"},
 			dataType: 'json',
+			beforeSend: function(){ 
+				$('.loader').show(); 
+			},
 			success: function(data){
 				
 				if(data.status)
@@ -30,6 +33,9 @@ $(document).ready(function(){
 					});
 				}
 
+			},
+			complete: function(){ 
+				$('.loader').hide(); 
 			}
 		});
 
