@@ -1,5 +1,7 @@
 <?php 
 
+error_reporting(0);
+
 $server = "localhost";
 $username = "root";
 $password = "aneesh2510";
