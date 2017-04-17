@@ -56,3 +56,17 @@ button
 {
 	display: none;
 }
+
+.form
+{
+	display: none;
+}
+
+.form table td:nth-child(odd){
+	text-align: right;
+}
+
+.error
+{
+	color: red;
+}
